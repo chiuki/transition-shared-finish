@@ -1,0 +1,22 @@
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="16dp"
+  tools:context=".ReceivingActivity">
+  <ImageView
+    android:id="@+id/robot"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:layout_gravity="top|end"
+    android:src="@drawable/android"
+    android:transitionName="robot"
+    android:contentDescription="@string/android"/>
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/results"
+    android:textSize="20sp"/>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Shared Transition Finish</string>
+  <string name="start">Start</string>
+  <string name="title_activity_launching">Launching Activity</string>
+  <string name="android">Android</string>
+  <string name="title_activity_receiving">Receiving Activity</string>
+  <string name="instructions">Click on the robot to see the transition</string>
+  <string name="results">Now press the back button</string>
+</resources>
